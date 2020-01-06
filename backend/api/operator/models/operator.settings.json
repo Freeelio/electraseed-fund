@@ -1,0 +1,34 @@
+{
+  "connection": "default",
+  "collectionName": "operators",
+  "info": {
+    "name": "Operator"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "amountStaked": {
+      "type": "decimal"
+    },
+    "dateApplied": {
+      "type": "date"
+    },
+    "dateListed": {
+      "type": "date"
+    },
+    "dateDelisted": {
+      "type": "date"
+    },
+    "delistReason": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/crowdsales",
+      "handler": "crowdsale.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/crowdsales/count",
+      "handler": "crowdsale.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/crowdsales/:id",
+      "handler": "crowdsale.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/crowdsales",
+      "handler": "crowdsale.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/crowdsales/:id",
+      "handler": "crowdsale.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/crowdsales/:id",
+      "handler": "crowdsale.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

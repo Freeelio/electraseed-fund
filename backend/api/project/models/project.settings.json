@@ -1,0 +1,61 @@
+{
+  "connection": "default",
+  "collectionName": "projects",
+  "info": {
+    "name": "Project"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "coverPicture": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "amountRequested": {
+      "type": "decimal"
+    },
+    "gridType": {
+      "type": "string"
+    },
+    "gridModel": {
+      "type": "string"
+    },
+    "businessModel": {
+      "type": "string"
+    },
+    "avoidanceCO2": {
+      "type": "string"
+    },
+    "sizePV": {
+      "type": "string"
+    },
+    "householdCount": {
+      "type": "integer"
+    },
+    "connectionCount": {
+      "type": "integer"
+    },
+    "socialROI": {
+      "type": "decimal"
+    },
+    "operatorId": {
+      "model": "operator"
+    },
+    "crowdsaleId": {
+      "model": "crowdsale"
+    },
+    "projectMetrics": {
+      "collection": "project-metrics"
+    }
+  }
+}

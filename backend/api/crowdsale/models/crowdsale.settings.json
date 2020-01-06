@@ -1,0 +1,39 @@
+{
+  "connection": "default",
+  "collectionName": "crowdsales",
+  "info": {
+    "name": "Crowdsale"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "minContribution": {
+      "type": "decimal"
+    },
+    "amountRaised": {
+      "type": "decimal"
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "contractAddress": {
+      "type": "string"
+    },
+    "isRunning": {
+      "type": "boolean",
+      "default": false
+    },
+    "isFunded": {
+      "type": "boolean",
+      "default": false
+    },
+    "projectsListed": {
+      "collection": "project"
+    }
+  }
+}

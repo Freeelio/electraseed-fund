@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/project-metrics",
+      "handler": "project-metrics.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/project-metrics/count",
+      "handler": "project-metrics.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/project-metrics/:id",
+      "handler": "project-metrics.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/project-metrics",
+      "handler": "project-metrics.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/project-metrics/:id",
+      "handler": "project-metrics.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/project-metrics/:id",
+      "handler": "project-metrics.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

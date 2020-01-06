@@ -1,0 +1,82 @@
+{
+  "connection": "default",
+  "collectionName": "project_metrics",
+  "info": {
+    "name": "ProjectMetrics"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "amountRaised": {
+      "type": "decimal"
+    },
+    "sizePV": {
+      "type": "decimal"
+    },
+    "storageCapacity": {
+      "type": "decimal"
+    },
+    "avgGenerationCapacity": {
+      "type": "decimal"
+    },
+    "availDaytimeCapacity": {
+      "type": "decimal"
+    },
+    "availNighttimeCapacity": {
+      "type": "decimal"
+    },
+    "moduleCount": {
+      "type": "integer"
+    },
+    "nominalPower": {
+      "type": "decimal"
+    },
+    "moduleType": {
+      "type": "string"
+    },
+    "pvInverterCount": {
+      "type": "integer"
+    },
+    "storageCount": {
+      "type": "integer"
+    },
+    "batteryInverterCount": {
+      "type": "integer"
+    },
+    "storageType": {
+      "type": "string"
+    },
+    "batteryInverterType": {
+      "type": "string"
+    },
+    "monitoringCount": {
+      "type": "integer"
+    },
+    "avoidanceCO2": {
+      "type": "decimal"
+    },
+    "monitoringType": {
+      "type": "string"
+    },
+    "connectionCount": {
+      "type": "integer"
+    },
+    "revenueGenerated": {
+      "type": "decimal"
+    },
+    "socialROI": {
+      "type": "decimal"
+    },
+    "householdCount": {
+      "type": "integer"
+    },
+    "compiledDate": {
+      "type": "datetime"
+    },
+    "projectId": {
+      "model": "project"
+    }
+  }
+}
