@@ -1,0 +1,1 @@
+geth --nodiscover --networkid 42 --datadir .ethereum/ --allow-insecure-unlock --unlock 0x9334C07308a59aeC890D127be503837e67fE75EE --password ./.ethereum/passfile --mine --rpc --rpcapi eth,net,web3 --rpcaddr 0.0.0.0 2>> ./.ethereum/electraseed.log &

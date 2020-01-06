@@ -1,0 +1,1 @@
+for ((n=0;n<10;n++)); do geth account new --password ./passfile; done
