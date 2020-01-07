@@ -226,7 +226,7 @@ tr:last-of-type td:last-child {
 	box-shadow: inset -1px -1px 0 #fff;
 }
 
-tbody:hover td {
+/* tbody:hover td {
 	color: transparent;
 	text-shadow: 0 0 3px #aaa;
 }
@@ -234,4 +234,5 @@ tbody:hover td {
 tbody:hover tr:hover td {
 	color: #444;
 	text-shadow: 0 1px 0 #fff;
-}
+} */
+

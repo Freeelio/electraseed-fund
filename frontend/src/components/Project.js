@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import payWithMetamask from "./EthButton";
+import ProjectMetrics from "./ProjectMetrics";
 
 class Project extends Component {
   constructor(props) {
@@ -33,6 +34,9 @@ class Project extends Component {
             <h3 className="avoidanceCO2">CO2 Avoidance: {this.state.project.avoidanceCO2}</h3>
             <h3 className="sizePV">Size PV: {this.state.project.sizePV}</h3>
             <h3 className="socialROI">Social Impact Score: {this.state.project.socialROI}</h3>
+          </div>
+          <div className="projectMetrics">
+            <ProjectMetrics {...this.props}/>
           </div>
           <div className="projectDescription">
             <h3>Project Description: {this.state.project.description}</h3>
