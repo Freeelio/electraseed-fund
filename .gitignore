@@ -1,4 +1,5 @@
 OLD_CONTRACTS
 .NOTES.txt
 .eslintrc
+.vscode
 blockchain/node_modules

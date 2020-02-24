@@ -1,0 +1,36 @@
+@startuml
+' -- for auto-render install: https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml
+' -- options --
+
+
+
+' -- classes --
+
+
+class ElectraSeedFundToken {
+    ' -- inheritance --
+	{abstract}ERC20BondingToken
+
+    ' -- usingFor --
+
+    ' -- vars --
+	+[[address]] owner
+
+    ' -- methods --
+	+initialize()
+	+buy()
+	+sell()
+	+donate()
+	+refund()
+	+setGasPrice()
+	+setExitTribute()
+	+setPoolSplit()
+	+setReserveToken()
+	+setInvestmentPool()
+	+dustCollector()
+
+}
+' -- inheritance / usingFor --
+ElectraSeedFundToken --[#DarkGoldenRod]|> ERC20BondingToken
+
+@enduml
