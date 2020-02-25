@@ -6,6 +6,7 @@ import "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20Burn
 import "@openzeppelin/upgrades/contracts/Initializable.sol";
 
 import "./Bancor/BancorFormula.sol";
+// import "./Bancor/IBancorFormula.sol"; //seems to solve the double import of safemath...
 
 /**
  * @title Bonding Curve

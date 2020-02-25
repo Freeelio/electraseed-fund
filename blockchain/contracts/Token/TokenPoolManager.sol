@@ -9,14 +9,15 @@ import "./BondingCurveToken.sol";
  * @dev Token backed Bonding curve contract
  */
 contract ERC20BondingToken is Initializable, BondingCurveToken {
-
   /* Reserve Token */
   ERC20 public reserveToken;
 
   /* The TCR contract address */
   address public investmentPool;
 
-  /* Exit Tribute is a tax applied on token sellers TODO: how to calc */
+  /* Exit Tribute is a tax applied on token sellers TODO: how to calc
+  rewardPool: ((100 - parameterizer.get("dispensationPct")) * deposit) / 100,
+  */
   uint256 public exitTribute = 1 wei;
 
   /* Pool split amount TODO: how to calc */
@@ -71,9 +72,9 @@ contract ERC20BondingToken is Initializable, BondingCurveToken {
   {
     if (_amount < 1 ether) return (_amount, 0);
 
-    // reserveAmt = _amount.div(poolSplit);
-    // investmentAmt = _amount.sub(reserveAmt);
-    reserveAmt = _amount / poolSplit;
-    investmentAmt = _amount - reserveAmt;
+    reserveAmt = _amount.div(poolSplit);
+    investmentAmt = _amount.sub(reserveAmt);
+    // reserveAmt = _amount / poolSplit;
+    // investmentAmt = _amount - reserveAmt;
   }
 }

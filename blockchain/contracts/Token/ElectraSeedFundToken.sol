@@ -8,7 +8,6 @@ import "./TokenPoolManager.sol";
 * uses an ERC20 based stable coin as its reserve
 */
 contract ElectraSeedFundToken is ERC20BondingToken {
-
   address public owner; //temp for development purposes only
 
   function initialize(
@@ -162,3 +161,10 @@ contract ElectraSeedFundToken is ERC20BondingToken {
 
 
 }
+
+
+/**
+todo:
+    function calculateFundCost(uint256 _supply, uint256 _reserveBalance, uint32 _totalRatio, uint256 _amount) public view returns (uint256);
+    function calculateLiquidateReturn(uint256 _supply, uint256 _reserveBalance, uint32 _totalRatio, uint256 _amount) public view returns (uint256);
+**/

@@ -1,11 +1,12 @@
 pragma solidity >=0.4.26 <0.7.0;
 
 import './IBancorFormula.sol';
-import './BancorSafeMath.sol';
 import './Utils.sol';
+// import './BancorSafeMath.sol';
+import '@openzeppelin/contracts-ethereum-package/contracts/math/SafeMath.sol';
 
 contract BancorFormula is IBancorFormula, Utils {
-    using BancorSafeMath for uint256;
+    using SafeMath for uint256;
 
     uint16 public version = 6;
 
@@ -257,22 +258,22 @@ contract BancorFormula is IBancorFormula, Utils {
       *
       * @return second reserve amount
     */
-    function calculateCrossReserveReturn(uint256 _fromReserveBalance, uint32 _fromReserveRatio, uint256 _toReserveBalance, uint32 _toReserveRatio, uint256 _amount) public view returns (uint256) {
-        // validate input
-        require(_fromReserveBalance > 0 && _fromReserveRatio > 0 && _fromReserveRatio <= MAX_RATIO && _toReserveBalance > 0 && _toReserveRatio > 0 && _toReserveRatio <= MAX_RATIO);
+    // function calculateCrossReserveReturn(uint256 _fromReserveBalance, uint32 _fromReserveRatio, uint256 _toReserveBalance, uint32 _toReserveRatio, uint256 _amount) public view returns (uint256) {
+    //     // validate input
+    //     require(_fromReserveBalance > 0 && _fromReserveRatio > 0 && _fromReserveRatio <= MAX_RATIO && _toReserveBalance > 0 && _toReserveRatio > 0 && _toReserveRatio <= MAX_RATIO);
 
-        // special case for equal ratios
-        if (_fromReserveRatio == _toReserveRatio)
-            return _toReserveBalance.mul(_amount) / _fromReserveBalance.add(_amount);
+    //     // special case for equal ratios
+    //     if (_fromReserveRatio == _toReserveRatio)
+    //         return _toReserveBalance.mul(_amount) / _fromReserveBalance.add(_amount);
 
-        uint256 result;
-        uint8 precision;
-        uint256 baseN = _fromReserveBalance.add(_amount);
-        (result, precision) = power(baseN, _fromReserveBalance, _fromReserveRatio, _toReserveRatio);
-        uint256 temp1 = _toReserveBalance.mul(result);
-        uint256 temp2 = _toReserveBalance << precision;
-        return (temp1 - temp2) / result;
-    }
+    //     uint256 result;
+    //     uint8 precision;
+    //     uint256 baseN = _fromReserveBalance.add(_amount);
+    //     (result, precision) = power(baseN, _fromReserveBalance, _fromReserveRatio, _toReserveRatio);
+    //     uint256 temp1 = _toReserveBalance.mul(result);
+    //     uint256 temp2 = _toReserveBalance << precision;
+    //     return (temp1 - temp2) / result;
+    // }
 
     /**
       * @dev given a smart token supply, reserve balance, total ratio and an amount of requested smart tokens,
@@ -612,22 +613,3 @@ contract BancorFormula is IBancorFormula, Utils {
     //     return calculateCrossReserveReturn(_fromConnectorBalance, _fromConnectorWeight, _toConnectorBalance, _toConnectorWeight, _amount);
     // }
 }
-
-// pragma solidity ^0.5.0;
-
-// contract BancorFormula {
-//     function calculatePurchaseReturn(
-//         uint256 _initialSupply,
-//         uint256 _poolBalance,
-//         uint32 _reserveRatio,
-//         uint256 _amount)
-//         public view
-//         returns (uint256);
-//     function calculateSaleReturn(
-//         uint256 _initialSupply,
-//         uint256 _poolBalance,
-//         uint32 _reserveRatio,
-//         uint256 _amount)
-//         public view
-//         returns (uint256);
-// }

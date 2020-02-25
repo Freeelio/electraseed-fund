@@ -3,7 +3,7 @@ pragma solidity >=0.4.26 <0.7.0;
 /**
   * @dev Library for basic math operations with overflow/underflow protection
 */
-library BancorSafeMath {
+library SafeMath {
     /**
       * @dev returns the sum of _x and _y, reverts if the calculation overflows
       *
