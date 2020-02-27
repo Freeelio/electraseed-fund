@@ -1,0 +1,34 @@
+@startuml
+' -- for auto-render install: https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml
+' -- options --
+
+
+
+' -- classes --
+
+
+class ERC20BondingToken {
+    ' -- inheritance --
+	{abstract}Initializable
+	{abstract}BondingCurveToken
+
+    ' -- usingFor --
+
+    ' -- vars --
+	+[[ERC20]] reserveToken
+	+[[address]] investmentPool
+	+[[uint256]] exitTribute
+	+[[uint8]] poolSplit
+
+    ' -- methods --
+	+initialize()
+	+🔍reservePoolBalance()
+	+🔍investmentPoolBalance()
+	#🔍_calculatePoolSplit()
+
+}
+' -- inheritance / usingFor --
+ERC20BondingToken --[#DarkGoldenRod]|> Initializable
+ERC20BondingToken --[#DarkGoldenRod]|> BondingCurveToken
+
+@enduml

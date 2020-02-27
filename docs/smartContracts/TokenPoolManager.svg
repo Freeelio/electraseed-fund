@@ -1,0 +1,124 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [  <!ENTITY quot "&#34;">  <!ENTITY amp "&#38;">  <!ENTITY apos "&#39;">  <!ENTITY lt "&#60;">  <!ENTITY gt "&#62;">  <!ENTITY nbsp "&#160;">  <!ENTITY iexcl "&#161;">  <!ENTITY cent "&#162;">  <!ENTITY pound "&#163;">  <!ENTITY curren "&#164;">  <!ENTITY yen "&#165;">  <!ENTITY brvbar "&#166;">  <!ENTITY sect "&#167;">  <!ENTITY uml "&#168;">  <!ENTITY copy "&#169;">  <!ENTITY ordf "&#170;">  <!ENTITY laquo "&#171;">  <!ENTITY not "&#172;">  <!ENTITY shy "&#173;">  <!ENTITY reg "&#174;">  <!ENTITY macr "&#175;">  <!ENTITY deg "&#176;">  <!ENTITY plusmn "&#177;">  <!ENTITY sup2 "&#178;">  <!ENTITY sup3 "&#179;">  <!ENTITY acute "&#180;">  <!ENTITY micro "&#181;">  <!ENTITY para "&#182;">  <!ENTITY middot "&#183;">  <!ENTITY cedil "&#184;">  <!ENTITY sup1 "&#185;">  <!ENTITY ordm "&#186;">  <!ENTITY raquo "&#187;">  <!ENTITY frac14 "&#188;">  <!ENTITY frac12 "&#189;">  <!ENTITY frac34 "&#190;">  <!ENTITY iquest "&#191;">  <!ENTITY Agrave "&#192;">  <!ENTITY Aacute "&#193;">  <!ENTITY Acirc "&#194;">  <!ENTITY Atilde "&#195;">  <!ENTITY Auml "&#196;">  <!ENTITY Aring "&#197;">  <!ENTITY AElig "&#198;">  <!ENTITY Ccedil "&#199;">  <!ENTITY Egrave "&#200;">  <!ENTITY Eacute "&#201;">  <!ENTITY Ecirc "&#202;">  <!ENTITY Euml "&#203;">  <!ENTITY Igrave "&#204;">  <!ENTITY Iacute "&#205;">  <!ENTITY Icirc "&#206;">  <!ENTITY Iuml "&#207;">  <!ENTITY ETH "&#208;">  <!ENTITY Ntilde "&#209;">  <!ENTITY Ograve "&#210;">  <!ENTITY Oacute "&#211;">  <!ENTITY Ocirc "&#212;">  <!ENTITY Otilde "&#213;">  <!ENTITY Ouml "&#214;">  <!ENTITY times "&#215;">  <!ENTITY Oslash "&#216;">  <!ENTITY Ugrave "&#217;">  <!ENTITY Uacute "&#218;">  <!ENTITY Ucirc "&#219;">  <!ENTITY Uuml "&#220;">  <!ENTITY Yacute "&#221;">  <!ENTITY THORN "&#222;">  <!ENTITY szlig "&#223;">  <!ENTITY agrave "&#224;">  <!ENTITY aacute "&#225;">  <!ENTITY acirc "&#226;">  <!ENTITY atilde "&#227;">  <!ENTITY auml "&#228;">  <!ENTITY aring "&#229;">  <!ENTITY aelig "&#230;">  <!ENTITY ccedil "&#231;">  <!ENTITY egrave "&#232;">  <!ENTITY eacute "&#233;">  <!ENTITY ecirc "&#234;">  <!ENTITY euml "&#235;">  <!ENTITY igrave "&#236;">  <!ENTITY iacute "&#237;">  <!ENTITY icirc "&#238;">  <!ENTITY iuml "&#239;">  <!ENTITY eth "&#240;">  <!ENTITY ntilde "&#241;">  <!ENTITY ograve "&#242;">  <!ENTITY oacute "&#243;">  <!ENTITY ocirc "&#244;">  <!ENTITY otilde "&#245;">  <!ENTITY ouml "&#246;">  <!ENTITY divide "&#247;">  <!ENTITY oslash "&#248;">  <!ENTITY ugrave "&#249;">  <!ENTITY uacute "&#250;">  <!ENTITY ucirc "&#251;">  <!ENTITY uuml "&#252;">  <!ENTITY yacute "&#253;">  <!ENTITY thorn "&#254;">  <!ENTITY yuml "&#255;">  <!ENTITY OElig "&#338;">  <!ENTITY oelig "&#339;">  <!ENTITY Scaron "&#352;">  <!ENTITY scaron "&#353;">  <!ENTITY Yuml "&#376;">  <!ENTITY fnof "&#402;">  <!ENTITY circ "&#710;">  <!ENTITY tilde "&#732;">  <!ENTITY Alpha "&#913;">  <!ENTITY Beta "&#914;">  <!ENTITY Gamma "&#915;">  <!ENTITY Delta "&#916;">  <!ENTITY Epsilon "&#917;">  <!ENTITY Zeta "&#918;">  <!ENTITY Eta "&#919;">  <!ENTITY Theta "&#920;">  <!ENTITY Iota "&#921;">  <!ENTITY Kappa "&#922;">  <!ENTITY Lambda "&#923;">  <!ENTITY Mu "&#924;">  <!ENTITY Nu "&#925;">  <!ENTITY Xi "&#926;">  <!ENTITY Omicron "&#927;">  <!ENTITY Pi "&#928;">  <!ENTITY Rho "&#929;">  <!ENTITY Sigma "&#931;">  <!ENTITY Tau "&#932;">  <!ENTITY Upsilon "&#933;">  <!ENTITY Phi "&#934;">  <!ENTITY Chi "&#935;">  <!ENTITY Psi "&#936;">  <!ENTITY Omega "&#937;">  <!ENTITY alpha "&#945;">  <!ENTITY beta "&#946;">  <!ENTITY gamma "&#947;">  <!ENTITY delta "&#948;">  <!ENTITY epsilon "&#949;">  <!ENTITY zeta "&#950;">  <!ENTITY eta "&#951;">  <!ENTITY theta "&#952;">  <!ENTITY iota "&#953;">  <!ENTITY kappa "&#954;">  <!ENTITY lambda "&#955;">  <!ENTITY mu "&#956;">  <!ENTITY nu "&#957;">  <!ENTITY xi "&#958;">  <!ENTITY omicron "&#959;">  <!ENTITY pi "&#960;">  <!ENTITY rho "&#961;">  <!ENTITY sigmaf "&#962;">  <!ENTITY sigma "&#963;">  <!ENTITY tau "&#964;">  <!ENTITY upsilon "&#965;">  <!ENTITY phi "&#966;">  <!ENTITY chi "&#967;">  <!ENTITY psi "&#968;">  <!ENTITY omega "&#969;">  <!ENTITY thetasym "&#977;">  <!ENTITY upsih "&#978;">  <!ENTITY piv "&#982;">  <!ENTITY ensp "&#8194;">  <!ENTITY emsp "&#8195;">  <!ENTITY thinsp "&#8201;">  <!ENTITY zwnj "&#8204;">  <!ENTITY zwj "&#8205;">  <!ENTITY lrm "&#8206;">  <!ENTITY rlm "&#8207;">  <!ENTITY ndash "&#8211;">  <!ENTITY mdash "&#8212;">  <!ENTITY lsquo "&#8216;">  <!ENTITY rsquo "&#8217;">  <!ENTITY sbquo "&#8218;">  <!ENTITY ldquo "&#8220;">  <!ENTITY rdquo "&#8221;">  <!ENTITY bdquo "&#8222;">  <!ENTITY dagger "&#8224;">  <!ENTITY Dagger "&#8225;">  <!ENTITY bull "&#8226;">  <!ENTITY hellip "&#8230;">  <!ENTITY permil "&#8240;">  <!ENTITY prime "&#8242;">  <!ENTITY Prime "&#8243;">  <!ENTITY lsaquo "&#8249;">  <!ENTITY rsaquo "&#8250;">  <!ENTITY oline "&#8254;">  <!ENTITY frasl "&#8260;">  <!ENTITY euro "&#8364;">  <!ENTITY image "&#8465;">  <!ENTITY weierp "&#8472;">  <!ENTITY real "&#8476;">  <!ENTITY trade "&#8482;">  <!ENTITY alefsym "&#8501;">  <!ENTITY larr "&#8592;">  <!ENTITY uarr "&#8593;">  <!ENTITY rarr "&#8594;">  <!ENTITY darr "&#8595;">  <!ENTITY harr "&#8596;">  <!ENTITY crarr "&#8629;">  <!ENTITY lArr "&#8656;">  <!ENTITY uArr "&#8657;">  <!ENTITY rArr "&#8658;">  <!ENTITY dArr "&#8659;">  <!ENTITY hArr "&#8660;">  <!ENTITY forall "&#8704;">  <!ENTITY part "&#8706;">  <!ENTITY exist "&#8707;">  <!ENTITY empty "&#8709;">  <!ENTITY nabla "&#8711;">  <!ENTITY isin "&#8712;">  <!ENTITY notin "&#8713;">  <!ENTITY ni "&#8715;">  <!ENTITY prod "&#8719;">  <!ENTITY sum "&#8721;">  <!ENTITY minus "&#8722;">  <!ENTITY lowast "&#8727;">  <!ENTITY radic "&#8730;">  <!ENTITY prop "&#8733;">  <!ENTITY infin "&#8734;">  <!ENTITY ang "&#8736;">  <!ENTITY and "&#8743;">  <!ENTITY or "&#8744;">  <!ENTITY cap "&#8745;">  <!ENTITY cup "&#8746;">  <!ENTITY int "&#8747;">  <!ENTITY there4 "&#8756;">  <!ENTITY sim "&#8764;">  <!ENTITY cong "&#8773;">  <!ENTITY asymp "&#8776;">  <!ENTITY ne "&#8800;">  <!ENTITY equiv "&#8801;">  <!ENTITY le "&#8804;">  <!ENTITY ge "&#8805;">  <!ENTITY sub "&#8834;">  <!ENTITY sup "&#8835;">  <!ENTITY nsub "&#8836;">  <!ENTITY sube "&#8838;">  <!ENTITY supe "&#8839;">  <!ENTITY oplus "&#8853;">  <!ENTITY otimes "&#8855;">  <!ENTITY perp "&#8869;">  <!ENTITY sdot "&#8901;">  <!ENTITY lceil "&#8968;">  <!ENTITY rceil "&#8969;">  <!ENTITY lfloor "&#8970;">  <!ENTITY rfloor "&#8971;">  <!ENTITY lang "&#9001;">  <!ENTITY rang "&#9002;">  <!ENTITY loz "&#9674;">  <!ENTITY spades "&#9824;">  <!ENTITY clubs "&#9827;">  <!ENTITY hearts "&#9829;">  <!ENTITY diams "&#9830;"> ]><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0.00 0.00 403.34 400.00">
+<g id="graph0" class="graph" transform="translate(4,396) scale(1)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="transparent" points="-4,4 -4,-396 399.3359,-396 399.3359,4 -4,4" style=""></polygon>
+<g id="clust1" class="cluster">
+<title style="">clusterERC20BondingToken</title>
+<path fill="#445773" stroke="#445773" d="M20,-8C20,-8 216.4444,-8 216.4444,-8 222.4444,-8 228.4444,-14 228.4444,-20 228.4444,-20 228.4444,-235 228.4444,-235 228.4444,-241 222.4444,-247 216.4444,-247 216.4444,-247 20,-247 20,-247 14,-247 8,-241 8,-235 8,-235 8,-20 8,-20 8,-14 14,-8 20,-8" style=""></path>
+<text text-anchor="middle" x="118.2222" y="-230.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">ERC20BondingToken</text>
+</g>
+<g id="clust2" class="cluster">
+<title style="">clusterERC20</title>
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M260.4444,-97C260.4444,-97 375.3359,-97 375.3359,-97 381.3359,-97 387.3359,-103 387.3359,-109 387.3359,-109 387.3359,-216 387.3359,-216 387.3359,-222 381.3359,-228 375.3359,-228 375.3359,-228 260.4444,-228 260.4444,-228 254.4444,-228 248.4444,-222 248.4444,-216 248.4444,-216 248.4444,-109 248.4444,-109 248.4444,-103 254.4444,-97 260.4444,-97" style=""></path>
+<text text-anchor="middle" x="317.8902" y="-211.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">ERC20</text>
+</g>
+<g id="clust3" class="cluster">
+<title style="">clusterBondingCurveToken</title>
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M263.0631,-12C263.0631,-12 372.7173,-12 372.7173,-12 378.7173,-12 384.7173,-18 384.7173,-24 384.7173,-24 384.7173,-77 384.7173,-77 384.7173,-83 378.7173,-89 372.7173,-89 372.7173,-89 263.0631,-89 263.0631,-89 257.0631,-89 251.0631,-83 251.0631,-77 251.0631,-77 251.0631,-24 251.0631,-24 251.0631,-18 257.0631,-12 263.0631,-12" style=""></path>
+<text text-anchor="middle" x="317.8902" y="-72.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">BondingCurveToken</text>
+</g>
+<g id="clust4" class="cluster">
+<title style="">cluster_01</title>
+<polygon fill="#2e3e56" stroke="#000000" points="45.2222,-255 45.2222,-384 352.8902,-384 352.8902,-255 45.2222,-255" style=""></polygon>
+<text text-anchor="middle" x="199.0562" y="-367.4" font-family="Times,serif" font-size="14.00" fill="#000000" style="">Legend</text>
+</g>
+<!-- ERC20BondingToken.initialize -->
+<g id="node1" class="node" data-name="ERC20BondingToken.initialize">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="118.2222" cy="-88" rx="40.5924" ry="13.9375" style=""></ellipse>
+<text text-anchor="middle" x="118.2222" y="-83.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">initialize</text>
+</g>
+<!-- ERC20.transferFrom -->
+<g id="node5" class="node" data-name="ERC20.transferFrom">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="317.8902" cy="-123" rx="57.3291" ry="13.9375" style=""></ellipse>
+<text text-anchor="middle" x="317.8902" y="-118.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">transferFrom</text>
+</g>
+<!-- ERC20BondingToken.initialize&#45;&gt;ERC20.transferFrom -->
+<g id="edge1" class="edge" data-name="ERC20BondingToken.initialize->ERC20.transferFrom">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M159.5935,-95.252C187.2167,-100.0941 224.0598,-106.5524 255.2509,-112.0199" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="254.7063,-115.4777 265.1604,-113.7569 255.9149,-108.5828 254.7063,-115.4777" style=""></polygon>
+</g>
+<!-- BondingCurveToken.initialize -->
+<g id="node7" class="node" data-name="BondingCurveToken.initialize">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="317.8902" cy="-38" rx="40.5924" ry="13.9375" style=""></ellipse>
+<text text-anchor="middle" x="317.8902" y="-33.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">initialize</text>
+</g>
+<!-- ERC20BondingToken.initialize&#45;&gt;BondingCurveToken.initialize -->
+<g id="edge2" class="edge" data-name="ERC20BondingToken.initialize->BondingCurveToken.initialize">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M156.7614,-78.674C177.9344,-73.5215 204.6542,-66.9723 228.4444,-61 241.9523,-57.609 256.5909,-53.8713 270.0379,-50.4126" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="271.2401,-53.7172 280.0502,-47.8324 269.4932,-46.9387 271.2401,-53.7172" style=""></polygon>
+</g>
+<!-- ERC20BondingToken.reservePoolBalance -->
+<g id="node2" class="node" data-name="ERC20BondingToken.reservePoolBalance">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="118.2222" cy="-196" rx="83.8749" ry="13.9375" style=""></ellipse>
+<text text-anchor="middle" x="118.2222" y="-191.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">reservePoolBalance</text>
+</g>
+<!-- ERC20.balanceOf -->
+<g id="node6" class="node" data-name="ERC20.balanceOf">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="317.8902" cy="-177" rx="46.8586" ry="13.9375" style=""></ellipse>
+<text text-anchor="middle" x="317.8902" y="-172.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">balanceOf</text>
+</g>
+<!-- ERC20BondingToken.reservePoolBalance&#45;&gt;ERC20.balanceOf -->
+<g id="edge3" class="edge" data-name="ERC20BondingToken.reservePoolBalance->ERC20.balanceOf">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M197.9971,-188.4088C218.2537,-186.4812 239.6595,-184.4443 258.6901,-182.6334" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="259.0767,-186.1125 268.7002,-181.6808 258.4135,-179.144 259.0767,-186.1125" style=""></polygon>
+</g>
+<!-- ERC20BondingToken.investmentPoolBalance -->
+<g id="node3" class="node" data-name="ERC20BondingToken.investmentPoolBalance">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="118.2222" cy="-142" rx="98.3824" ry="13.9375" style=""></ellipse>
+<text text-anchor="middle" x="118.2222" y="-137.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">investmentPoolBalance</text>
+</g>
+<!-- ERC20BondingToken.investmentPoolBalance&#45;&gt;ERC20.balanceOf -->
+<g id="edge4" class="edge" data-name="ERC20BondingToken.investmentPoolBalance->ERC20.balanceOf">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M190.8718,-154.7348C214.4653,-158.8705 240.2515,-163.3906 262.3885,-167.2711" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="261.8276,-170.726 272.2818,-169.0053 263.0363,-163.8312 261.8276,-170.726" style=""></polygon>
+</g>
+<!-- ERC20BondingToken._calculatePoolSplit -->
+<g id="node4" class="node" data-name="ERC20BondingToken._calculatePoolSplit">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="118.2222" cy="-34" rx="82.2071" ry="13.9375" style=""></ellipse>
+<text text-anchor="middle" x="118.2222" y="-29.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">_calculatePoolSplit</text>
+</g>
+<!-- key -->
+<g id="node8" class="node" data-name="key">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="179.15969990539548,-346.9375 57.284699905395506,-346.9375 57.284699905395506,-267.0625 179.15969990539548,-267.0625 179.15969990539548,-346.9375 " style=""></polygon>
+<text text-anchor="start" x="102.8582" y="-332.4" font-family="Times,serif" font-size="14.00" fill="#000000" style="">Internal Call</text>
+<text text-anchor="start" x="98.9662" y="-312.4" font-family="Times,serif" font-size="14.00" fill="#000000" style="">External Call</text>
+<text text-anchor="start" x="76.4276" y="-292.4" font-family="Times,serif" font-size="14.00" fill="#000000" style="">Defined Contract</text>
+<text text-anchor="start" x="62.8249" y="-272.4" font-family="Times,serif" font-size="14.00" fill="#000000" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node9" class="node" data-name="key2">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="340.8276996620461,-346.9375 294.9526996620461,-346.9375 294.9526996620461,-267.0625 340.8276996620461,-267.0625 340.8276996620461,-346.9375 " style=""></polygon>
+<text text-anchor="start" x="305.6493" y="-332.4" font-family="Times,serif" font-size="14.00" fill="#000000" style="">&nbsp;&nbsp;&nbsp;</text>
+<text text-anchor="start" x="305.6493" y="-312.4" font-family="Times,serif" font-size="14.00" fill="#000000" style="">&nbsp;&nbsp;&nbsp;</text>
+<polygon fill="#445773" stroke="transparent" points="307.9526993482317,-291.0625 307.9526993482317,-302.9375 327.8276993482317,-302.9375 327.8276993482317,-291.0625 307.9526993482317,-291.0625 " style=""></polygon>
+<text text-anchor="start" x="305.6493" y="-292.4" font-family="Times,serif" font-size="14.00" fill="#000000" style="">&nbsp;&nbsp;&nbsp;</text>
+<polygon fill="none" stroke="#e8726d" points="309.95269923960365,-273.0625 309.95269923960365,-280.9375 325.82769923960365,-280.9375 325.82769923960365,-273.0625 309.95269923960365,-273.0625 " style=""></polygon>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge5" class="edge" data-name="key->key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M175.2222,-337C228.8339,-337 244.7498,-337 293.6495,-337" style=""></path>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="293.8902,-340.5001 303.8902,-337 293.8901,-333.5001 293.8902,-340.5001" style=""></polygon>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge6" class="edge" data-name="key->key2">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M175.2222,-317C228.8339,-317 244.7498,-317 293.6495,-317" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="293.8902,-320.5001 303.8902,-317 293.8901,-313.5001 293.8902,-320.5001" style=""></polygon>
+</g>
+</g>
+</svg>

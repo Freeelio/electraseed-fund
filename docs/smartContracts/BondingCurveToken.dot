@@ -1,0 +1,58 @@
+digraph G {
+  graph [ ratio = "auto", page = "100", compound =true, bgcolor = "#2e3e56" ];
+  node [ style = "filled", fillcolor = "#edad56", color = "#edad56", penwidth =3 ];
+  edge [ color = "#fcfcfc", penwidth =2, fontname = "helvetica Neue Ultra Light" ];
+subgraph "clusterBondingCurveToken" {
+  graph [ label = "BondingCurveToken", color = "#445773", fontcolor = "#f0f0f0", style = "rounded", bgcolor = "#445773" ];
+  "BondingCurveToken.validGasPrice" [ label = "validGasPrice", color = "#1bc6a6", shape =doubleoctagon ];
+  "BondingCurveToken.reservePoolBalance" [ label = "reservePoolBalance" ];
+  "BondingCurveToken.initialize" [ label = "initialize", color = "#FF9797", fillcolor = "#FF9797" ];
+  "BondingCurveToken.calculateCurvedMintReturn" [ label = "calculateCurvedMintReturn", color = "#FF9797", fillcolor = "#FF9797" ];
+  "BondingCurveToken.calculateCurvedBurnReturn" [ label = "calculateCurvedBurnReturn", color = "#FF9797", fillcolor = "#FF9797" ];
+  "BondingCurveToken._curvedMint" [ label = "_curvedMint", color = "#f2c383", fillcolor = "#f2c383" ];
+  "BondingCurveToken._curvedMintFor" [ label = "_curvedMintFor" ];
+  "BondingCurveToken._curvedBurn" [ label = "_curvedBurn", color = "#f2c383", fillcolor = "#f2c383" ];
+  "BondingCurveToken._curvedBurnFor" [ label = "_curvedBurnFor" ];
+}
+
+  "BondingCurveToken.calculateCurvedMintReturn";
+  "BondingCurveToken.reservePoolBalance";
+  "BondingCurveToken.calculateCurvedBurnReturn";
+  "BondingCurveToken._curvedMint";
+  "BondingCurveToken._curvedMintFor";
+  "BondingCurveToken._curvedBurn";
+  "BondingCurveToken._curvedBurnFor";
+  "BondingCurveToken.calculateCurvedMintReturn" -> "BondingCurveToken.reservePoolBalance" [ color = "#1bc6a6" ];
+  "BondingCurveToken.calculateCurvedBurnReturn" -> "BondingCurveToken.reservePoolBalance" [ color = "#1bc6a6" ];
+  "BondingCurveToken._curvedMint" -> "BondingCurveToken._curvedMintFor" [ color = "#1bc6a6" ];
+  "BondingCurveToken._curvedMintFor" -> "BondingCurveToken.calculateCurvedMintReturn" [ color = "#1bc6a6" ];
+  "BondingCurveToken._curvedBurn" -> "BondingCurveToken._curvedBurnFor" [ color = "#1bc6a6" ];
+  "BondingCurveToken._curvedBurnFor" -> "BondingCurveToken.calculateCurvedBurnReturn" [ color = "#1bc6a6" ];
+
+
+rankdir=LR
+node [shape=plaintext]
+subgraph cluster_01 { 
+label = "Legend";
+key [label=<<table border="0" cellpadding="2" cellspacing="0" cellborder="0">
+  <tr><td align="right" port="i1">Internal Call</td></tr>
+  <tr><td align="right" port="i2">External Call</td></tr>
+  <tr><td align="right" port="i3">Defined Contract</td></tr>
+  <tr><td align="right" port="i4">Undefined Contract</td></tr>
+  </table>>]
+key2 [label=<<table border="0" cellpadding="2" cellspacing="0" cellborder="0">
+  <tr><td port="i1">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i2">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i3" bgcolor="#445773">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i4">
+    <table border="1" cellborder="0" cellspacing="0" cellpadding="7" color="#e8726d">
+      <tr>
+       <td></td>
+      </tr>
+     </table>
+  </td></tr>
+  </table>>]
+key:i1:e -> key2:i1:w [color="#1bc6a6"]
+key:i2:e -> key2:i2:w [color="white"]
+}
+}

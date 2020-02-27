@@ -1,0 +1,139 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [  <!ENTITY quot "&#34;">  <!ENTITY amp "&#38;">  <!ENTITY apos "&#39;">  <!ENTITY lt "&#60;">  <!ENTITY gt "&#62;">  <!ENTITY nbsp "&#160;">  <!ENTITY iexcl "&#161;">  <!ENTITY cent "&#162;">  <!ENTITY pound "&#163;">  <!ENTITY curren "&#164;">  <!ENTITY yen "&#165;">  <!ENTITY brvbar "&#166;">  <!ENTITY sect "&#167;">  <!ENTITY uml "&#168;">  <!ENTITY copy "&#169;">  <!ENTITY ordf "&#170;">  <!ENTITY laquo "&#171;">  <!ENTITY not "&#172;">  <!ENTITY shy "&#173;">  <!ENTITY reg "&#174;">  <!ENTITY macr "&#175;">  <!ENTITY deg "&#176;">  <!ENTITY plusmn "&#177;">  <!ENTITY sup2 "&#178;">  <!ENTITY sup3 "&#179;">  <!ENTITY acute "&#180;">  <!ENTITY micro "&#181;">  <!ENTITY para "&#182;">  <!ENTITY middot "&#183;">  <!ENTITY cedil "&#184;">  <!ENTITY sup1 "&#185;">  <!ENTITY ordm "&#186;">  <!ENTITY raquo "&#187;">  <!ENTITY frac14 "&#188;">  <!ENTITY frac12 "&#189;">  <!ENTITY frac34 "&#190;">  <!ENTITY iquest "&#191;">  <!ENTITY Agrave "&#192;">  <!ENTITY Aacute "&#193;">  <!ENTITY Acirc "&#194;">  <!ENTITY Atilde "&#195;">  <!ENTITY Auml "&#196;">  <!ENTITY Aring "&#197;">  <!ENTITY AElig "&#198;">  <!ENTITY Ccedil "&#199;">  <!ENTITY Egrave "&#200;">  <!ENTITY Eacute "&#201;">  <!ENTITY Ecirc "&#202;">  <!ENTITY Euml "&#203;">  <!ENTITY Igrave "&#204;">  <!ENTITY Iacute "&#205;">  <!ENTITY Icirc "&#206;">  <!ENTITY Iuml "&#207;">  <!ENTITY ETH "&#208;">  <!ENTITY Ntilde "&#209;">  <!ENTITY Ograve "&#210;">  <!ENTITY Oacute "&#211;">  <!ENTITY Ocirc "&#212;">  <!ENTITY Otilde "&#213;">  <!ENTITY Ouml "&#214;">  <!ENTITY times "&#215;">  <!ENTITY Oslash "&#216;">  <!ENTITY Ugrave "&#217;">  <!ENTITY Uacute "&#218;">  <!ENTITY Ucirc "&#219;">  <!ENTITY Uuml "&#220;">  <!ENTITY Yacute "&#221;">  <!ENTITY THORN "&#222;">  <!ENTITY szlig "&#223;">  <!ENTITY agrave "&#224;">  <!ENTITY aacute "&#225;">  <!ENTITY acirc "&#226;">  <!ENTITY atilde "&#227;">  <!ENTITY auml "&#228;">  <!ENTITY aring "&#229;">  <!ENTITY aelig "&#230;">  <!ENTITY ccedil "&#231;">  <!ENTITY egrave "&#232;">  <!ENTITY eacute "&#233;">  <!ENTITY ecirc "&#234;">  <!ENTITY euml "&#235;">  <!ENTITY igrave "&#236;">  <!ENTITY iacute "&#237;">  <!ENTITY icirc "&#238;">  <!ENTITY iuml "&#239;">  <!ENTITY eth "&#240;">  <!ENTITY ntilde "&#241;">  <!ENTITY ograve "&#242;">  <!ENTITY oacute "&#243;">  <!ENTITY ocirc "&#244;">  <!ENTITY otilde "&#245;">  <!ENTITY ouml "&#246;">  <!ENTITY divide "&#247;">  <!ENTITY oslash "&#248;">  <!ENTITY ugrave "&#249;">  <!ENTITY uacute "&#250;">  <!ENTITY ucirc "&#251;">  <!ENTITY uuml "&#252;">  <!ENTITY yacute "&#253;">  <!ENTITY thorn "&#254;">  <!ENTITY yuml "&#255;">  <!ENTITY OElig "&#338;">  <!ENTITY oelig "&#339;">  <!ENTITY Scaron "&#352;">  <!ENTITY scaron "&#353;">  <!ENTITY Yuml "&#376;">  <!ENTITY fnof "&#402;">  <!ENTITY circ "&#710;">  <!ENTITY tilde "&#732;">  <!ENTITY Alpha "&#913;">  <!ENTITY Beta "&#914;">  <!ENTITY Gamma "&#915;">  <!ENTITY Delta "&#916;">  <!ENTITY Epsilon "&#917;">  <!ENTITY Zeta "&#918;">  <!ENTITY Eta "&#919;">  <!ENTITY Theta "&#920;">  <!ENTITY Iota "&#921;">  <!ENTITY Kappa "&#922;">  <!ENTITY Lambda "&#923;">  <!ENTITY Mu "&#924;">  <!ENTITY Nu "&#925;">  <!ENTITY Xi "&#926;">  <!ENTITY Omicron "&#927;">  <!ENTITY Pi "&#928;">  <!ENTITY Rho "&#929;">  <!ENTITY Sigma "&#931;">  <!ENTITY Tau "&#932;">  <!ENTITY Upsilon "&#933;">  <!ENTITY Phi "&#934;">  <!ENTITY Chi "&#935;">  <!ENTITY Psi "&#936;">  <!ENTITY Omega "&#937;">  <!ENTITY alpha "&#945;">  <!ENTITY beta "&#946;">  <!ENTITY gamma "&#947;">  <!ENTITY delta "&#948;">  <!ENTITY epsilon "&#949;">  <!ENTITY zeta "&#950;">  <!ENTITY eta "&#951;">  <!ENTITY theta "&#952;">  <!ENTITY iota "&#953;">  <!ENTITY kappa "&#954;">  <!ENTITY lambda "&#955;">  <!ENTITY mu "&#956;">  <!ENTITY nu "&#957;">  <!ENTITY xi "&#958;">  <!ENTITY omicron "&#959;">  <!ENTITY pi "&#960;">  <!ENTITY rho "&#961;">  <!ENTITY sigmaf "&#962;">  <!ENTITY sigma "&#963;">  <!ENTITY tau "&#964;">  <!ENTITY upsilon "&#965;">  <!ENTITY phi "&#966;">  <!ENTITY chi "&#967;">  <!ENTITY psi "&#968;">  <!ENTITY omega "&#969;">  <!ENTITY thetasym "&#977;">  <!ENTITY upsih "&#978;">  <!ENTITY piv "&#982;">  <!ENTITY ensp "&#8194;">  <!ENTITY emsp "&#8195;">  <!ENTITY thinsp "&#8201;">  <!ENTITY zwnj "&#8204;">  <!ENTITY zwj "&#8205;">  <!ENTITY lrm "&#8206;">  <!ENTITY rlm "&#8207;">  <!ENTITY ndash "&#8211;">  <!ENTITY mdash "&#8212;">  <!ENTITY lsquo "&#8216;">  <!ENTITY rsquo "&#8217;">  <!ENTITY sbquo "&#8218;">  <!ENTITY ldquo "&#8220;">  <!ENTITY rdquo "&#8221;">  <!ENTITY bdquo "&#8222;">  <!ENTITY dagger "&#8224;">  <!ENTITY Dagger "&#8225;">  <!ENTITY bull "&#8226;">  <!ENTITY hellip "&#8230;">  <!ENTITY permil "&#8240;">  <!ENTITY prime "&#8242;">  <!ENTITY Prime "&#8243;">  <!ENTITY lsaquo "&#8249;">  <!ENTITY rsaquo "&#8250;">  <!ENTITY oline "&#8254;">  <!ENTITY frasl "&#8260;">  <!ENTITY euro "&#8364;">  <!ENTITY image "&#8465;">  <!ENTITY weierp "&#8472;">  <!ENTITY real "&#8476;">  <!ENTITY trade "&#8482;">  <!ENTITY alefsym "&#8501;">  <!ENTITY larr "&#8592;">  <!ENTITY uarr "&#8593;">  <!ENTITY rarr "&#8594;">  <!ENTITY darr "&#8595;">  <!ENTITY harr "&#8596;">  <!ENTITY crarr "&#8629;">  <!ENTITY lArr "&#8656;">  <!ENTITY uArr "&#8657;">  <!ENTITY rArr "&#8658;">  <!ENTITY dArr "&#8659;">  <!ENTITY hArr "&#8660;">  <!ENTITY forall "&#8704;">  <!ENTITY part "&#8706;">  <!ENTITY exist "&#8707;">  <!ENTITY empty "&#8709;">  <!ENTITY nabla "&#8711;">  <!ENTITY isin "&#8712;">  <!ENTITY notin "&#8713;">  <!ENTITY ni "&#8715;">  <!ENTITY prod "&#8719;">  <!ENTITY sum "&#8721;">  <!ENTITY minus "&#8722;">  <!ENTITY lowast "&#8727;">  <!ENTITY radic "&#8730;">  <!ENTITY prop "&#8733;">  <!ENTITY infin "&#8734;">  <!ENTITY ang "&#8736;">  <!ENTITY and "&#8743;">  <!ENTITY or "&#8744;">  <!ENTITY cap "&#8745;">  <!ENTITY cup "&#8746;">  <!ENTITY int "&#8747;">  <!ENTITY there4 "&#8756;">  <!ENTITY sim "&#8764;">  <!ENTITY cong "&#8773;">  <!ENTITY asymp "&#8776;">  <!ENTITY ne "&#8800;">  <!ENTITY equiv "&#8801;">  <!ENTITY le "&#8804;">  <!ENTITY ge "&#8805;">  <!ENTITY sub "&#8834;">  <!ENTITY sup "&#8835;">  <!ENTITY nsub "&#8836;">  <!ENTITY sube "&#8838;">  <!ENTITY supe "&#8839;">  <!ENTITY oplus "&#8853;">  <!ENTITY otimes "&#8855;">  <!ENTITY perp "&#8869;">  <!ENTITY sdot "&#8901;">  <!ENTITY lceil "&#8968;">  <!ENTITY rceil "&#8969;">  <!ENTITY lfloor "&#8970;">  <!ENTITY rfloor "&#8971;">  <!ENTITY lang "&#9001;">  <!ENTITY rang "&#9002;">  <!ENTITY loz "&#9674;">  <!ENTITY spades "&#9824;">  <!ENTITY clubs "&#9827;">  <!ENTITY hearts "&#9829;">  <!ENTITY diams "&#9830;"> ]><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0.00 0.00 861.05 408.00">
+<g id="graph0" class="graph" transform="translate(4,404) scale(1)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="transparent" points="-4,4 -4,-404 857.0501,-404 857.0501,4 -4,4" style=""></polygon>
+<g id="clust1" class="cluster">
+<title style="">clusterBondingCurveToken</title>
+<path fill="#445773" stroke="#445773" d="M20,-8C20,-8 833.0501,-8 833.0501,-8 839.0501,-8 845.0501,-14 845.0501,-20 845.0501,-20 845.0501,-243 845.0501,-243 845.0501,-249 839.0501,-255 833.0501,-255 833.0501,-255 20,-255 20,-255 14,-255 8,-249 8,-243 8,-243 8,-20 8,-20 8,-14 14,-8 20,-8" style=""></path>
+<text text-anchor="middle" x="426.525" y="-238.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">BondingCurveToken</text>
+</g>
+<g id="clust2" class="cluster">
+<title style="">cluster_01</title>
+<polygon fill="#2e3e56" stroke="#000000" points="17.5734,-263 17.5734,-392 311.009,-392 311.009,-263 17.5734,-263" style=""></polygon>
+<text text-anchor="middle" x="164.2912" y="-375.4" font-family="Times,serif" font-size="14.00" fill="#000000" style="">Legend</text>
+</g>
+<!-- BondingCurveToken.validGasPrice -->
+<g id="node1" class="node" data-name="BondingCurveToken.validGasPrice">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="157.15389978905034,-194.22693263888888 157.15389978905034,-205.77306736111112 118.1519566173873,-213.9375 62.99484322045174,-213.9375 23.992900048788684,-205.77306736111112 23.992900048788684,-194.22693263888888 62.99484322045174,-186.0625 118.1519566173873,-186.0625 157.15389978905034,-194.22693263888888 " style=""></polygon>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="161.157899992194,-191.38698323863636 161.157899992194,-208.61301676136364 118.71746636123568,-217.9375 62.42943364839728,-217.9375 19.989000017438965,-208.61301676136364 19.989000017438965,-191.38698323863636 62.42943364839728,-182.0625 118.71746636123568,-182.0625 161.157899992194,-191.38698323863636 " style=""></polygon>
+<text text-anchor="middle" x="90.5734" y="-195.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">validGasPrice</text>
+</g>
+<!-- BondingCurveToken.reservePoolBalance -->
+<g id="node2" class="node" data-name="BondingCurveToken.reservePoolBalance">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="749.3316" cy="-61" rx="83.8749" ry="13.9375" style=""></ellipse>
+<text text-anchor="middle" x="749.3316" y="-56.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">reservePoolBalance</text>
+</g>
+<!-- BondingCurveToken.initialize -->
+<g id="node3" class="node" data-name="BondingCurveToken.initialize">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="90.5734" cy="-142" rx="40.5924" ry="13.9375" style=""></ellipse>
+<text text-anchor="middle" x="90.5734" y="-137.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">initialize</text>
+</g>
+<!-- BondingCurveToken.calculateCurvedMintReturn -->
+<g id="node4" class="node" data-name="BondingCurveToken.calculateCurvedMintReturn">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="506.2422" cy="-88" rx="114.6155" ry="13.9375" style=""></ellipse>
+<text text-anchor="middle" x="506.2422" y="-83.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">calculateCurvedMintReturn</text>
+</g>
+<!-- BondingCurveToken.calculateCurvedMintReturn&#45;&gt;BondingCurveToken.reservePoolBalance -->
+<g id="edge1" class="edge" data-name="BondingCurveToken.calculateCurvedMintReturn->BondingCurveToken.reservePoolBalance">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M602.3176,-77.3289C621.9815,-75.1448 642.5766,-72.8573 661.9171,-70.7091" style=""></path>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="662.3525,-74.1824 671.905,-69.5998 661.5797,-67.2252 662.3525,-74.1824" style=""></polygon>
+</g>
+<!-- BondingCurveToken.calculateCurvedBurnReturn -->
+<g id="node5" class="node" data-name="BondingCurveToken.calculateCurvedBurnReturn">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="506.2422" cy="-34" rx="115.1797" ry="13.9375" style=""></ellipse>
+<text text-anchor="middle" x="506.2422" y="-29.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">calculateCurvedBurnReturn</text>
+</g>
+<!-- BondingCurveToken.calculateCurvedBurnReturn&#45;&gt;BondingCurveToken.reservePoolBalance -->
+<g id="edge2" class="edge" data-name="BondingCurveToken.calculateCurvedBurnReturn->BondingCurveToken.reservePoolBalance">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M602.6667,-44.7099C622.3079,-46.8914 642.8642,-49.1746 662.161,-51.3179" style=""></path>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="661.8004,-54.7993 672.1257,-52.4247 662.5732,-47.8421 661.8004,-54.7993" style=""></polygon>
+</g>
+<!-- BondingCurveToken._curvedMint -->
+<g id="node6" class="node" data-name="BondingCurveToken._curvedMint">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="90.5734" cy="-88" rx="56.7746" ry="13.9375" style=""></ellipse>
+<text text-anchor="middle" x="90.5734" y="-83.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">_curvedMint</text>
+</g>
+<!-- BondingCurveToken._curvedMintFor -->
+<g id="node7" class="node" data-name="BondingCurveToken._curvedMintFor">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="276.009" cy="-88" rx="70.098" ry="13.9375" style=""></ellipse>
+<text text-anchor="middle" x="276.009" y="-83.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">_curvedMintFor</text>
+</g>
+<!-- BondingCurveToken._curvedMint&#45;&gt;BondingCurveToken._curvedMintFor -->
+<g id="edge3" class="edge" data-name="BondingCurveToken._curvedMint->BondingCurveToken._curvedMintFor">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M151.5488,-88C164.2508,-88 177.8567,-88 191.2401,-88" style=""></path>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="191.4124,-91.5001 201.4124,-88 191.4123,-84.5001 191.4124,-91.5001" style=""></polygon>
+</g>
+<!-- BondingCurveToken._curvedMintFor&#45;&gt;BondingCurveToken.calculateCurvedMintReturn -->
+<g id="edge4" class="edge" data-name="BondingCurveToken._curvedMintFor->BondingCurveToken.calculateCurvedMintReturn">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M350.4412,-88C359.0321,-88 367.97,-88 377.026,-88" style=""></path>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="377.2887,-91.5001 387.2886,-88 377.2886,-84.5001 377.2887,-91.5001" style=""></polygon>
+</g>
+<!-- BondingCurveToken._curvedBurn -->
+<g id="node8" class="node" data-name="BondingCurveToken._curvedBurn">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="90.5734" cy="-34" rx="57.3387" ry="13.9375" style=""></ellipse>
+<text text-anchor="middle" x="90.5734" y="-29.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">_curvedBurn</text>
+</g>
+<!-- BondingCurveToken._curvedBurnFor -->
+<g id="node9" class="node" data-name="BondingCurveToken._curvedBurnFor">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="276.009" cy="-34" rx="70.6621" ry="13.9375" style=""></ellipse>
+<text text-anchor="middle" x="276.009" y="-29.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">_curvedBurnFor</text>
+</g>
+<!-- BondingCurveToken._curvedBurn&#45;&gt;BondingCurveToken._curvedBurnFor -->
+<g id="edge5" class="edge" data-name="BondingCurveToken._curvedBurn->BondingCurveToken._curvedBurnFor">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M152.0632,-34C164.581,-34 177.9587,-34 191.1242,-34" style=""></path>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="191.1328,-37.5001 201.1328,-34 191.1328,-30.5001 191.1328,-37.5001" style=""></polygon>
+</g>
+<!-- BondingCurveToken._curvedBurnFor&#45;&gt;BondingCurveToken.calculateCurvedBurnReturn -->
+<g id="edge6" class="edge" data-name="BondingCurveToken._curvedBurnFor->BondingCurveToken.calculateCurvedBurnReturn">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M351.0774,-34C359.283,-34 367.7987,-34 376.4264,-34" style=""></path>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="376.5941,-37.5001 386.5941,-34 376.5941,-30.5001 376.5941,-37.5001" style=""></polygon>
+</g>
+<!-- key -->
+<g id="node10" class="node" data-name="key">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="151.51090003108976,-354.9375 29.635900031089783,-354.9375 29.635900031089783,-275.0625 151.51090003108976,-275.0625 151.51090003108976,-354.9375 " style=""></polygon>
+<text text-anchor="start" x="75.2094" y="-340.4" font-family="Times,serif" font-size="14.00" fill="#000000" style="">Internal Call</text>
+<text text-anchor="start" x="71.3174" y="-320.4" font-family="Times,serif" font-size="14.00" fill="#000000" style="">External Call</text>
+<text text-anchor="start" x="48.7788" y="-300.4" font-family="Times,serif" font-size="14.00" fill="#000000" style="">Defined Contract</text>
+<text text-anchor="start" x="35.1761" y="-280.4" font-family="Times,serif" font-size="14.00" fill="#000000" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node11" class="node" data-name="key2">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="298.9465004040754,-354.9375 253.07150040407532,-354.9375 253.07150040407532,-275.0625 298.9465004040754,-275.0625 298.9465004040754,-354.9375 " style=""></polygon>
+<text text-anchor="start" x="263.7681" y="-340.4" font-family="Times,serif" font-size="14.00" fill="#000000" style="">&nbsp;&nbsp;&nbsp;</text>
+<text text-anchor="start" x="263.7681" y="-320.4" font-family="Times,serif" font-size="14.00" fill="#000000" style="">&nbsp;&nbsp;&nbsp;</text>
+<polygon fill="#445773" stroke="transparent" points="266.07150077928816,-299.0625 266.07150077928816,-310.9375 285.94650077928816,-310.9375 285.94650077928816,-299.0625 266.07150077928816,-299.0625 " style=""></polygon>
+<text text-anchor="start" x="263.7681" y="-300.4" font-family="Times,serif" font-size="14.00" fill="#000000" style="">&nbsp;&nbsp;&nbsp;</text>
+<polygon fill="none" stroke="#e8726d" points="268.0715009091695,-281.0625 268.0715009091695,-288.9375 283.9465009091695,-288.9375 283.9465009091695,-281.0625 268.0715009091695,-281.0625 " style=""></polygon>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge7" class="edge" data-name="key->key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M147.5734,-345C194.8576,-345 209.1721,-345 251.8199,-345" style=""></path>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="252.009,-348.5001 262.009,-345 252.009,-341.5001 252.009,-348.5001" style=""></polygon>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge8" class="edge" data-name="key->key2">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M147.5734,-325C194.8576,-325 209.1721,-325 251.8199,-325" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="252.009,-328.5001 262.009,-325 252.009,-321.5001 252.009,-328.5001" style=""></polygon>
+</g>
+</g>
+</svg>

@@ -1,0 +1,42 @@
+@startuml
+' -- for auto-render install: https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml
+' -- options --
+
+
+
+' -- classes --
+
+
+class BondingCurveToken {
+    ' -- inheritance --
+	{abstract}Initializable
+	{abstract}ERC20Detailed
+	{abstract}ERC20Mintable
+	{abstract}ERC20Burnable
+	{abstract}BancorFormula
+
+    ' -- usingFor --
+
+    ' -- vars --
+	+[[uint32]] reserveRatio
+	+[[uint256]] gasPrice
+
+    ' -- methods --
+	+🔍reservePoolBalance()
+	+initialize()
+	+🔍calculateCurvedMintReturn()
+	+🔍calculateCurvedBurnReturn()
+	#_curvedMint()
+	#_curvedMintFor()
+	#_curvedBurn()
+	#_curvedBurnFor()
+
+}
+' -- inheritance / usingFor --
+BondingCurveToken --[#DarkGoldenRod]|> Initializable
+BondingCurveToken --[#DarkGoldenRod]|> ERC20Detailed
+BondingCurveToken --[#DarkGoldenRod]|> ERC20Mintable
+BondingCurveToken --[#DarkGoldenRod]|> ERC20Burnable
+BondingCurveToken --[#DarkGoldenRod]|> BancorFormula
+
+@enduml

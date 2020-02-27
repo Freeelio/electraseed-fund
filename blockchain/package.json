@@ -1,0 +1,19 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "networks.js",
+  "dependencies": {
+    "@openzeppelin/contracts-ethereum-package": "^2.4.0",
+    "@openzeppelin/upgrades": "^2.7.1",
+    "registry-builder": "^0.1.0",
+    "solc": "^0.5.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
