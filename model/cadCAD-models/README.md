@@ -1,0 +1,1 @@
+This folder contains both financial models (cadCAD used for e.g. Monte Carlo runs) as well as full-fledged token token models combining financial models and token primitives for incentive mechanism design.
