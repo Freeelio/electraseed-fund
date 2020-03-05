@@ -15,4 +15,4 @@ Since stakeholders of Electraseed Fund are new to tokenized funding, we've found
 (see ![Electraseed Fun!](LeGrandJeu-model))
 
 In addition we use [cadCAD](https://github.com/BlockScience/cadCAD), scientific computing framework in Phython for 
-financial and token modelling & simulation of Electraseed Fund (see ![Computer Aided Sesign](cadCAD-model))
+financial and token modelling & simulation of Electraseed Fund (see ![Computer Aided Design](cadCAD-models))
