@@ -9,7 +9,7 @@ For this we employ both:
   * [token bonding](https://discourse.sourcecred.io/t/bonding-curve-references/271), which allows bond-to-mint of data, cash, code contributions
   * potentially use the minted token as discount token to incentivize project operators as well as their users
   
-_Whilst financial engineering concerns itself solely with risk, token engineering is about designing and testing transparent incentive mechanisms, which create information symmetry under uncertainty._
+_Whilst financial engineering concerns itself primarily with risk, token engineering is about designing and testing transparent incentive mechanisms, which create information symmetry under uncertainty._
   
 Since stakeholders of Electraseed Fund are new to tokenized funding, we've found a [game-based](https://github.com/freddbomba/legrandjeu/blob/master/doc/legrandjeu.md) model & simulation to be very helpful
 (see ![Electraseed Fun!](LeGrandJeu-model))
